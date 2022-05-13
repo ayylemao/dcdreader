@@ -6,7 +6,7 @@ gfortran npy.f90 read_dcd.f90 -o read_dcd.x
 
 Usage:
 
-./read_dcd.x <path to dcd file> <output name .npy (STRING)> <first n atoms to consider>
+./read_dcd.x <path to dcd file> <output name .npy> <first n atoms to consider>
   
 Example:
 ./read_dcd.x traj_aaa.dcd pos.npy 34
